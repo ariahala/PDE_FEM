@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="01903f00-b668-46a4-85c6-45a786f9ed0a" name="CIMS-normal" url="http://access.cims.nyu.edu">
+        <fileTransfer host="access.cims.nyu.edu" port="22" rootFolder="/home/ah5160" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="58e828c4-f896-4358-8a06-7a7801746063" name="CIMS-cuda-1" url="http://localhost">
+        <fileTransfer host="localhost" port="6000" rootFolder="/home/ah5160" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="6000" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
