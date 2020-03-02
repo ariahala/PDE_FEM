@@ -4,6 +4,7 @@ from random import *
 import numpy as np
 
 
+
 def sample(a):
     a = np.log(a) / 0.5
     dist = np.exp(a)/np.sum(np.exp(a))
